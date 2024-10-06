@@ -23,14 +23,14 @@
       "key": "央视大全",
       "name": "央视┃大全",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js?ref=master",
+      "api": "./libs/drpy2.min.js?ref=master",
       "ext": "./quickjs/央视大全.js?ref=master"
     },
     {
       "key": "nangua",
       "name": "南瓜┃App",
       "type": 3,
-      "api": "http://js.xn--z7x900a.com/js/ng_open.js"
+      "api": "./CatVod/ng_open.js?ref=master"
     },
     {
       "key": "Tvyb",
@@ -205,14 +205,14 @@
       "key": "瓜子影视",
       "name": "瓜子┃多线",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js?ref=master",
+      "api": "./libs/drpy2.min.js?ref=master",
       "ext": "./quickjs/瓜子影视.js?ref=master"
     },
     {
       "key": "闪雷电",
       "name": "闪电┃直连",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js?ref=master",
+      "api": "./libs/drpy2.min.js?ref=master",
       "ext": "./quickjs/闪雷电.js?ref=master"
     },
     {
