@@ -42,6 +42,12 @@
       "api": "csp_Jpyy"
     },
     {
+      "key": "NanGua",
+      "name": "南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua"
+    },
+    {
       "key": "Gz360",
       "name": "瓜子┃多线",
       "type": 3,
@@ -72,6 +78,19 @@
       "api": "csp_SuBaiBai"
     },
     {
+      "key": "huohuo",
+      "name": "骚火┃不卡",
+      "type": 3,
+      "api": "csp_SaoHuo"
+    },
+    {
+      "key": "Nongm",
+      "name": "农民┃嗅探",
+      "type": 3,
+      "api": "csp_Nongm",
+      "ext": "https://www.wwgz.cn/"
+    },
+    {
       "key": "Czsapp",
       "name": "厂长┃资源",
       "type": 3,
@@ -83,12 +102,6 @@
       "name": "比特┃秒播",
       "type": 3,
       "api": "csp_Bttwo"
-    },
-    {
-      "key": "NanGua",
-      "name": "南瓜┃App",
-      "type": 3,
-      "api": "csp_NanGua"
     },
     {
       "key": "paopao",
@@ -104,24 +117,11 @@
       "api": "csp_Nkdy"
     },
     {
-      "key": "huohuo",
-      "name": "骚火┃不卡",
-      "type": 3,
-      "api": "csp_SaoHuo"
-    },
-    {
       "key": "freeok",
       "name": "免费┃独家",
       "type": 3,
       "api": "csp_FreeOK",
       "ext": "https://www.freeok.lol"
-    },
-    {
-      "key": "Nongm",
-      "name": "农民┃嗅探",
-      "type": 3,
-      "api": "csp_Nongm",
-      "ext": "https://www.wwgz.cn/"
     },
     {
       "key": "Quanwk",
