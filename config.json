@@ -104,7 +104,7 @@
       "api": "csp_Bttwo"
     },
     {
-      "key": "paopao",
+      "key": "Pptv",
       "name": "菠菜┃采集",
       "type": 3,
       "api": "csp_Pptv",
@@ -201,25 +201,26 @@
       "ext": {
         "site_urls": [
           "http://mihdr.top",
-          "http://mpanso.com"
+          "http://mpanso.com",
+          "https://duopan.fun",
+          "http://labipan.com",
+          "http://feimaoai.site"
         ]
       }
     },
     {
-      "key": "纸条搜",
+      "key": "XiaoZhiTiao",
       "name": "纸条┃网盘",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
-      "ext": {
-        "commonConfig": "TVRulle/peizhi.json"
-      }
+      "ext": "TVRule/token.txt"
     },
     {
       "key": "MiSou",
       "name": "米搜┃网盘",
       "type": 3,
       "api": "csp_MiSou",
-      "ext": "TVRulle/token.txt"
+      "ext": "TVRule/token.txt"
     },
     
     {
