@@ -131,6 +131,20 @@
       "ext": "https://888.qkw2.cc/"
     },
     {
+      "key": "csp_Netfixtv",
+      "name": "至臻┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "ext": "http://mpanso.com"
+    },
+    {
+      "key": "Tvyb",
+      "name": "TVB┃云播",
+      "type": 3,
+      "api": "csp_Tvyb",
+      "ext": "http://www.tvyun01.com/"
+    },
+    {
       "key": "Kanke",
       "name": " 看客┃影视",
       "type": 3,
@@ -203,6 +217,15 @@
           "http://mihdr.top",
           "http://mpanso.com"
         ]
+      }
+    },
+    {
+      "key": "纸条搜",
+      "name": "纸条┃网盘",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "ext": {
+        "commonConfig": "TVRulle/peizhi.json"
       }
     },
     {
