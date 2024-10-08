@@ -131,20 +131,6 @@
       "ext": "https://888.qkw2.cc/"
     },
     {
-      "key": "csp_Netfixtv",
-      "name": "至臻┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "ext": "http://mpanso.com"
-    },
-    {
-      "key": "Tvyb",
-      "name": "TVB┃云播",
-      "type": 3,
-      "api": "csp_Tvyb",
-      "ext": "http://www.tvyun01.com/"
-    },
-    {
       "key": "Kanke",
       "name": " 看客┃影视",
       "type": 3,
