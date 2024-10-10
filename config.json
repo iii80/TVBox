@@ -29,6 +29,13 @@
       "ext": "./quickjs/央视大全.js?ref=master"
     },
     {
+      "key": "瓜子影视",
+      "name": "瓜子┃App",
+      "type": 3,
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/瓜子影视.js?ref=master"
+    },
+    {
       "key": "君君",
       "name": "君君┃App",
       "type": 3,
