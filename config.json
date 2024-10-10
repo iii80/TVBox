@@ -39,7 +39,7 @@
       "key": "君君",
       "name": "君君┃App",
       "type": 3,
-      "api": "./quickjs/appys_open.js?ref=master",
+      "api": "./CatVod/appys_open.js?ref=master",
       "ext": {
         "host": "http://122.228.85.203:1000/api.php/app/",
         "*": [
@@ -52,7 +52,7 @@
       "key": "GUAZI",
       "name": "子子┃App",
       "type": 3,
-      "api": "./quickjs/appys_open.js?ref=master",
+      "api": "./CatVod/appys_open.js?ref=master",
       "ext": {
         "host": "http://110.42.37.106:7788/api.php/app/",
         "*": [
