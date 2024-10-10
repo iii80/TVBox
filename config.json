@@ -13,14 +13,7 @@
     }
   ],
   "sites": [
-    /*
-    {
-      "key": "DouDou",
-      "name": "豆瓣┃评分",
-      "type": 3,
-      "api": "csp_Douban"
-    },
-    */
+    //{"key":"DouDou","name":"豆瓣┃评分","type":3,"api":"csp_Douban"},
     {
       "key": "豆瓣",
       "name": "豆瓣┃评分",
@@ -43,6 +36,7 @@
       "ext": {
         "host": "http://122.228.85.203:1000/api.php/app/",
         "*": [
+          "http://122.228.85.203:7979/api/?key=29a5e65c75bf3d339dec1bf50155cf87&url=",
           "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
         ]
       }
@@ -265,6 +259,76 @@
       "type": 3,
       "api": "csp_Push",
       "ext": "TVRule/token.txt"
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "反弹",
+      "type": 1,
+      "url": "http://27.25.141.188:6688/api/?key=cc10901237ea968438714d7f0303986b&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "1080解析",
+      "type": 1,
+      "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
     }
   ]
 }
