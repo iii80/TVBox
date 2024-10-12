@@ -13,7 +13,12 @@
     }
   ],
   "sites": [
-    {"key":"DouDou","name":"豆瓣┃评分","type":3,"api":"csp_Douban"},  
+    {
+      "key": "DouDou",
+      "name": "豆瓣┃评分",
+      "type": 3,
+      "api": "csp_Douban"
+    },
     {
       "key": "JPYY",
       "name": "金牌┃多线",
