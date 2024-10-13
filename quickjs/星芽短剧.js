@@ -92,7 +92,7 @@ var rule = {
 },        
     headers: {
         "X-App-Id": "7",
-        "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg1NzQxMDEsIlVzZXJJZCI6NjAzOTI5NTgsInJlZ2lzdGVyX3RpbWUiOiIyMDI0LTA5LTI1IDIzOjI4OjIxIiwiaXNfbW9iaWxlX2JpbmQiOmZhbHNlfQ.i8CgMjFpz8BA4U2DyF7_04Lo_H308bDWuXtJF7OMCLw",
+        "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjYxMTU0MjYsIlVzZXJJZCI6NDY4OTQxMDIsInJlZ2lzdGVyX3RpbWUiOiIyMDI0LTA1LTI2IDE5OjI5OjM1IiwiaXNfbW9iaWxlX2JpbmQiOmZhbHNlfQ.gKsXwSguQ3btmTNRB-cVw5UlLkKnA-cZ_nddnE9ks30",
         "platform": "1",
         "manufacturer": "Xiaomi",
         "version_name": "3.2.0.1",
@@ -156,7 +156,7 @@ var rule = {
         VOD = {
             vod_name: data.title,
             vod_pic: data.cover_url,
-            vod_play_from: 'XT👀短剧',
+            vod_play_from: 'XT短剧',
             vod_play_url: urls.join('#')
         }
     }),
