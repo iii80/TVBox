@@ -5,22 +5,22 @@
       "key": "豆瓣",
       "name": "豆瓣┃评分",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/豆瓣评分.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/豆瓣评分.js?ref=master"
     },
     {
       "key": "央视大全",
       "name": "央视┃大全",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/央视大全.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/央视大全.js?ref=master"
     },
     {
       "key": "一曲肝肠断",
       "name": "戏曲┃点播",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/一曲肝肠断.js?ref=JavaScript",
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/一曲肝肠断.js?ref=master",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -30,218 +30,218 @@
       "key": "星芽短剧",
       "name": "星芽┃短剧",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/星芽短剧.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/星芽短剧.js?ref=master"
     },
     {
       "key": "网飞猫",
       "name": "飞猫┃直连",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/网飞猫.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/网飞猫.js?ref=master"
     },
     {
       "key": "毒蛇电影",
       "name": "毒舌┃不卡",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/毒蛇电影.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/毒蛇电影.js?ref=master"
     },
     {
       "key": "可可影视",
       "name": "可可┃极速",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/可可影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/可可影视.js?ref=master"
     },
     {
       "key": "优酷",
       "name": "优酷┃官方",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/优酷.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/优酷.js?ref=master"
     },
     {
       "key": "厂长资源",
       "name": "厂长┃资源",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/厂长资源.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/厂长资源.js?ref=master"
     },
     {
       "key": "瓜子影视",
       "name": "瓜子┃多线",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/瓜子影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/瓜子影视.js?ref=master"
     },
     {
       "key": "HDmoli",
       "name": "魔力┃外剧",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/HDmoli.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/HDmoli.js?ref=master"
     },
     {
       "key": "rarbt",
       "name": "rarbt┃BT",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/rarbt.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/rarbt.js?ref=master"
     },
     {
       "key": "网飞TV",
       "name": "网飞┃多线",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/网飞.TV.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/网飞.TV.js?ref=master"
     },
     {
       "key": "闪雷电",
       "name": "雷电┃多线",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/闪雷电.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/闪雷电.js?ref=master"
     },
     {
       "key": "蜥蜴影视",
       "name": "蜥蜴┃不卡",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/蜥蜴影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/蜥蜴影视.js?ref=master"
     },
     {
       "key": "多多追剧",
       "name": "多多┃极速",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/多多追剧.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/多多追剧.js?ref=master"
     },
     {
       "key": "在线之家.js",
       "name": "在线┃之家",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/在线之家.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/在线之家.js?ref=master"
     },
     {
       "key": "桃子影视",
       "name": "桃子┃极速",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/桃子影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/桃子影视.js?ref=master"
     },
     {
       "key": "片多多",
       "name": "片多多┃不卡",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/片多多.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/片多多.js?ref=master"
     },
     {
       "key": "大师兄影视",
       "name": "师兄┃直连",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/大师兄影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/大师兄影视.js?ref=master"
     },
     {
       "key": "一起看",
       "name": "一起┃多线",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/一起看.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/一起看.js?ref=master"
     },
     {
       "key": "南瓜影视",
       "name": "南瓜┃app",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/南瓜影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/南瓜影视.js?ref=master"
     },
     {
       "key": "素白白",
       "name": "素白┃无广",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/素白白.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/素白白.js?ref=master"
     },
     {
       "key": "酷云77",
       "name": "酷云┃七七",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/酷云77.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/酷云77.js?ref=master"
     },
     {
       "key": "哔嘀影视",
       "name": "哔嘀┃外剧",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/哔嘀影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/哔嘀影视.js?ref=master"
     },
     {
       "key": "哈皮影视",
       "name": "哈皮┃直连",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/哈皮影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/哈皮影视.js?ref=master"
     },
     {
       "key": "荐片",
       "name": "荐片┃p2p",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/荐片.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/荐片.js?ref=master"
     },
     {
       "key": "LIBVIO",
       "name": "立播┃外剧",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/LIBVIO.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/LIBVIO.js?ref=master"
     },
     {
       "key": "缘觉影视",
       "name": "缘觉┃无广",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/缘觉影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/缘觉影视.js?ref=master"
     },
     {
       "key": "农民影视",
       "name": "农民┃嗅探",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/农民影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/农民影视.js?ref=master"
     },
     {
       "key": "子子影视",
       "name": "子子┃多线",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/子子影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/子子影视.js?ref=master"
     },
     {
       "key": "达达龟",
       "name": "达达┃多线",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/达达龟.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/达达龟.js?ref=master"
     },
     {
       "key": "低端影视",
       "name": "低端┃外剧",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/低端影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/低端影视.js?ref=master"
     },
     {
       "key": "烧火影视",
       "name": "烧火┃多线",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/烧火影视.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/烧火影视.js?ref=master"
     }
   ],
   "parses": [
