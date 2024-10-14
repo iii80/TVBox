@@ -1,5 +1,17 @@
 {
-  "spider": "./custom_spider.jar?ref=main;md5;7849a5a3fb05e53a281b98764642c2ab",
+  "spider": "./custom_spider.jar?ref=main;md5;4e1010524e7057305efc75565c87ba0d",
+  "lives": [
+    {
+      "name": "电视┃IPTV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+    },
+    {
+      "name": "直播┃IPTV",
+      "type": 0,
+      "url": "http://175.178.251.183:6689/live.m3u"
+    }
+  ],
   "sites": [
     {
       "key": "DouDou",
@@ -8,28 +20,66 @@
       "api": "csp_DouDou"
     },
     {
-      "key": "Alllive",
+      "key": "alllive",
       "name": "直播┃聚合",
       "type": 3,
       "api": "csp_Alllive"
     },
     {
-      "key": "csp_Djtt",
+      "key": "Djtt",
       "name": "无忧┃短剧",
       "type": 3,
       "api": "csp_Djtt"
     },
     {
-      "key": "TianTian",
-      "name": "天天┃直连",
+      "key": "央视大全",
+      "name": "央视┃大全",
       "type": 3,
-      "api": "csp_TianTian"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/央视大全.js?ref=master"
     },
     {
-      "key": "ReBo",
-      "name": "热播┃多线",
+      "key": "瓜子影视",
+      "name": "瓜子┃App",
       "type": 3,
-      "api": "csp_ReBo"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/瓜子影视.js?ref=master"
+    },
+    {
+      "key": "君君",
+      "name": "君君┃App",
+      "type": 3,
+      "api": "./CatVod/appys_open.js?ref=master",
+      "ext": {
+        "host": "http://122.228.85.203:1000/api.php/app/",
+        "*": [
+          "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
+        ]
+      }
+    },
+    {
+      "key": "GUAZI",
+      "name": "子子┃App",
+      "type": 3,
+      "api": "./CatVod/appys_open.js?ref=master",
+      "ext": {
+        "host": "http://110.42.37.106:7788/api.php/app/",
+        "*": [
+          "http://122.228.85.203:7979/api/?key=29a5e65c75bf3d339dec1bf50155cf87&url="
+        ]
+      }
+    },
+    {
+      "key": "Jpys",
+      "name": "文采┃秒播",
+      "type": 3,
+      "api": "csp_Jpys"
+    },
+    {
+      "key": "Nmyswv",
+      "name": "农民┃秒播",
+      "type": 3,
+      "api": "csp_Nmyswv"
     },
     {
       "key": "LiteApple",
@@ -38,97 +88,35 @@
       "api": "csp_LiteApple"
     },
     {
-      "key": "Gz360",
-      "name": "瓜子┃多线",
+      "key": "NewCz",
+      "name": "厂长┃资源",
       "type": 3,
-      "api": "csp_Gz360"
+      "api": "csp_NewCz",
+      "ext": "https://www.czzy77.com/"
     },
     {
-      "key": "Nongm",
-      "name": "农民┃嗅探",
+      "key": "NanGua",
+      "name": "南瓜┃App",
       "type": 3,
-      "api": "csp_Nongm"
+      "api": "csp_NanGua"
     },
     {
-      "key": "Bttwo",
-      "name": "比特┃外剧",
-      "type": 3,
-      "api": "csp_Bttwo"
-    },
-    {
-      "key": "AppRZ",
-      "name": "忍者┃多线",
-      "type": 3,
-      "api": "csp_AppRZ",
-      "ext": "http://rzys.xyz/"
-    },
-    {
-      "key": "FreeOK",
-      "name": "️免费┃多线",
-      "type": 3,
-      "api": "csp_FreeOK",
-      "ext": "https://www.freeok.lol"
-    },
-    {
-      "key": "csp_SaoHuo",
-      "name": "骚火┃不卡",
-      "type": 3,
-      "api": "csp_SaoHuo"
-    },
-    {
-      "key": "Qiyou",
-      "name": "奇优┃不卡",
-      "type": 3,
-      "api": "csp_Qiyou"
-    },
-    {
-      "key": "SuBaiBai",
-      "name": "素白┃不卡",
-      "type": 3,
-      "api": "csp_SuBaiBai"
-    },
-    {
-      "key": "Tvyb",
-      "name": "TVB┃云播",
-      "type": 3,
-      "api": "csp_Tvyb",
-      "ext": "http://www.tvyun01.com/"
-    },
-    {
-      "key": "FengGo",
-      "name": "疯狗┃多线",
-      "type": 3,
-      "api": "csp_FengGo"
-    },
-    {
-      "key": "Jiaozi",
-      "name": "饺子┃外剧",
-      "type": 3,
-      "api": "csp_Jiaozi"
-    },
-    {      
       "key": "YCyz",
       "name": "原创┃无广",
       "type": 3,
       "api": "csp_YCyz"
     },
     {
-      "key": "csp_SC1080",
-      "name": "圣城┃采集",
+      "key": "Kekys",
+      "name": "可可┃多线",
       "type": 3,
-      "api": "csp_SC1080"
+      "api": "csp_Kekys"
     },
     {
       "key": "DiDuan",
       "name": "低端┃外剧",
       "type": 3,
       "api": "csp_Ddrk"
-    },
-    {
-      "key": "Kuaikan",
-      "name": "快看┃极速",
-      "type": 3,
-      "api": "csp_Kuaikan"
     },
     {
       "key": "zxzj",
@@ -139,17 +127,47 @@
     },
     {
       "key": "Auete",
-      "name": "奥特┃直连",
+      "name": "奥特┃无广",
       "type": 3,
       "api": "csp_Auete",
       "ext": "https://auete.pro/"
     },
     {
-      "key": "Jianpian",
-      "name": "荐片┃磁力",
+      "key": "Bttwoo",
+      "name": "比特┃秒播",
       "type": 3,
-      "api": "csp_Jianpian",
-      "ext": "./json/jianpian.json"
+      "api": "csp_Bttwoo"
+    },
+    {
+      "key": "天天",
+      "name": "天天┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+    },
+    {
+      "key": "追剧",
+      "name": "追剧┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+    },
+    {
+      "key": "热播",
+      "name": "热播┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+    },
+    {
+      "key": "Libvio",
+      "name": "立播┃秒播",
+      "type": 3,
+      "api": "csp_Libvio",
+      "ext": {
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "SixV",
@@ -159,17 +177,16 @@
       "ext": "http://www.xb6v.com/"
     },
     {
-      "key":"厂长",
-      "name":"厂长┃资源",
-      "type":3,
-      "api":"csp_XBPQ",
-      "ext":{"站名":"厂长资源","主页url":"https://www.czzy77.com/","分类url":"https://www.czzy77.com/{cateId}/{class}/{area}/page/{catePg};;m0","分类":"全部&豆瓣电影Top250&高分影视&最新电影&电影&国产剧&电视剧&动画&日剧&韩剧&美剧&海外剧&俄罗斯电影&加拿大电影&华语电影&印度电影&日本电影&欧美电影&韩国电影&纪录片","分类值":"movie_bt&dbtop250&gaofenyingshi&zuixindianying&movie_bt_series/dyy&movie_bt_series/guochanju&movie_bt_series/dianshiju&movie_bt_series/dohua&movie_bt_series/rj&movie_bt_series/hj&movie_bt_series/mj&movie_bt_series/hwj&movie_bt_series/eluosidianying&movie_bt_series/jianadadianying&movie_bt_series/huayudianying&movie_bt_series/yindudianying&movie_bt_series/ribendianying&movie_bt_series/meiguodianying&movie_bt_series/hanguodianying&movie_bt/movie_bt_tags/jlpp","简介":"<div class=\"yp_context\">&&</div>","导演":"导演：&&</li>","主演":"主演：&&</li>","影片年代":"年份：&&</li>","影片地区":"地区：&&</li>","影片类型":"类型：&&</li>","数组":"<li>&&</li>","图片":"data-original=\"&&\"","标题":"alt=\"&&\"","链接":"href=\"&&\"","副标题":"jidi\">&&</div>+furk\">&&</div>+rating\">&&</div>","线路数组":"<div class=\"mi_paly_box\">&&</div>","线路标题":"线路①+<span>&&</span>[替换:在线观看>>极速]","播放数组":"<div class=\"paly_list_btn\">&&</div>","播放列表":"<a&&/a>","播放标题":">&&<[替换:立即播放>>空]","播放链接":"href=\"&&\"","筛选":{"movie_bt":[    {"key":"area","name":"分类","value":[{"v":"","n":"全部分类"},{"v":"movie_bt_series/dyy","n":"电影"},{"v":"movie_bt_series/dianshiju","n":"电视剧"},{"v":"movie_bt_series/dohua","n":"动画"},{"v":"movie_bt_series/guochanju","n":"国产剧"},{"v":"movie_bt_series/mj","n":"美剧"},{"v":"movie_bt_series/rj","n":"日剧"},{"v":"movie_bt_series/hj","n":"韩剧"},{"v":"movie_bt_series/hwj","n":"海外剧（其他）"},{"v":"movie_bt_series/huayudianying","n":"华语电影"},{"v":"movie_bt_series/meiguodianying","n":"欧美电影"},{"v":"movie_bt_series/ribendianying","n":"日本电影"},{"v":"movie_bt_series/hanguodianying","n":"韩国电影"},{"v":"movie_bt_series/yindudianying","n":"印度电影"},{"v":"movie_bt_series/eluosidianying","n":"俄罗斯电影"},{"v":"movie_bt_series/jianadadianying","n":"加拿大电影"},{"v":"movie_bt_series/huiyuanzhuanqu","n":"会员专区"}]},    {"key":"class","name":"类型","value":[{"n":"全部类型","v":""},{"n":"传记","v":"movie_bt_tags/chuanji"},{"n":"儿童","v":"movie_bt_tags/etet"},{"n":"冒险","v":"movie_bt_tags/maoxian"},{"n":"剧情","v":"movie_bt_tags/juqing"},{"n":"动作","v":"movie_bt_tags/dozuo"},{"n":"动漫","v":"movie_bt_tags/doman"},{"n":"动画","v":"movie_bt_tags/dhh"},{"n":"历史","v":"movie_bt_tags/lishi"},{"n":"古装","v":"movie_bt_tags/guzhuang"},{"n":"喜剧","v":"movie_bt_tags/xiju"},{"n":"奇幻","v":"movie_bt_tags/qihuan"},{"n":"家庭","v":"movie_bt_tags/jiating"},{"n":"恐怖","v":"movie_bt_tags/kubu"},{"n":"悬疑","v":"movie_bt_tags/xuanyi"},{"n":"情色","v":"movie_bt_tags/qingse"},{"n":"惊悚","v":"movie_bt_tags/kingsong"},{"n":"战争","v":"movie_bt_tags/zhanzhen"},{"n":"歌舞","v":"movie_bt_tags/gw"},{"n":"武侠","v":"movie_bt_tags/wuxia"},{"n":"灾难","v":"movie_bt_tags/zainan"},{"n":"爱情","v":"movie_bt_tags/aiqing"},{"n":"犯罪","v":"movie_bt_tags/fanzui"},{"n":"短片","v":"movie_bt_tags/dp"},{"n":"科幻","v":"movie_bt_tags/kh"},{"n":"纪录片","v":"movie_bt_tags/jlpp"},{"n":"西部","v":"movie_bt_tags/xb"},{"n":"运动","v":"movie_bt_tags/yd"},{"n":"音乐","v":"movie_bt_tags/yy"}]}]}}
-    },
-    {
-      "key": "SP360",
-      "name": "360┃解析",
+      "key": "WoGG",
+      "name": "玩偶┃4K",
       "type": 3,
-      "api": "csp_SP360"
+      "api": "csp_WoGG",
+      "ext": {
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://wogg.xxooo.cf/",
+        "danMu": "关"
+      }
     },
     {
       "key": "Dm84",
@@ -178,16 +195,16 @@
       "api": "csp_Dm84"
     },
     {
+      "key": "Ysj",
+      "name": "异界┃动漫",
+      "type": 3,
+      "api": "csp_Ysj"
+    },
+    {
       "key": "Anime",
       "name": "花子┃动漫",
       "type": 3,
       "api": "csp_Anime1"
-    },
-    {
-      "key": "Yj1211",
-      "name": "竞技┃直播",
-      "type": 3,
-      "api": "csp_Yj1211"
     },
     {
       "key": "YGP",
@@ -206,90 +223,54 @@
       }
     },
     {
-      "key": "WoGG",
-      "name": "玩偶┃4K",
+      "key": "MIPanSo",
+      "name": "米搜┃搜索",
       "type": 3,
-      "api": "csp_Wogg",
+      "api": "csp_MIPanSo",
       "ext": {
-        "commonConfig": "TVRule/peizhi.json",
-        "siteUrl": "https://wogg.xxooo.cf/",
-        "filter": "./json/wogg.json?ref=main"
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto"
       }
     },
     {
-      "key": "蜡笔",
-      "name": "︎蜡笔┃云盘",
+      "key": "KkSs",
+      "name": "抠抠┃搜搜",
       "type": 3,
-      "api": "csp_kongbai",
+      "api": "csp_KkSs",
       "ext": {
-        "commonConfig": "TVRule/peizhi.json",
-        "siteUrl": "https://duopan.fun",
-        "filter": "./json/wogg.json?ref=main"
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto"
       }
     },
     {
-      "key": "XiaoZhiTiao",
-      "name": "纸条┃云盘",
-      "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "ext": {
-        "commonConfig": "TVRule/peizhi.json"
-      }
-    },
-    {
-      "key": "星剧社",
-      "name": "星剧社┃网盘",
-      "type": 3,
-      "api": "csp_Star",
-      "ext": {
-        "commonConfig": "TVRule/peizhi.json"
-      }
-    },
-    {
-      "key": "易搜",
-      "name": "易搜┃云盘",
-      "type": 3,
-      "api": "csp_YiSo",
-      "ext": {
-        "commonConfig": "TVRule/peizhi.json"
-      }
-    },
-    {
-      "key": "csp_PanSearch",
-      "name": "盘搜┃云盘",
+      "key": "QuarkPanso",
+      "name": "夸搜┃夸父",
       "type": 3,
       "api": "csp_PanSearch",
       "ext": {
-        "commonConfig": "TVRule/peizhi.json"
+        "pan": "quark",
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto"
       }
     },
     {
-      "key": "网盘集合",
-      "name": "网盘┃集合",
+      "key": "YiSo",
+      "name": "易搜┃搜索",
       "type": 3,
-      "api": "csp_网盘集合",
+      "api": "csp_YiSo",
       "ext": {
-        "commonConfig": "TVRule/peizhi.json",
-        "share": "./json/网盘集合.json?ref=main"
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto"
       }
     },
     {
-      "key": "ConfigCenter",
-      "name": "配置┃中心",
+      "key": "PanSearch",
+      "name": "盘Se┃搜索",
       "type": 3,
-      "api": "csp_ConfigCenter",
+      "api": "csp_PanSearch",
       "ext": {
-        "commonConfig": "TVRule/peizhi.json"
-      }
-    },
-    {
-      "key": "csp_Kugou",
-      "name": "酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto"
       }
     },
     {
@@ -298,40 +279,10 @@
       "type": 3,
       "api": "csp_Push",
       "ext": {
-        "commonConfig": "TVRule/peizhi.json"
-      }
-    },
-    {
-      "key": "Local",
-      "name": "本地┃视频",
-      "type": 3,
-      "api": "csp_Local"
+        "Cloud-drive": "TVRule/Cloud-drive.txt",
+        "from": "4k|auto"
+      },
+      "timeout": 60
     }
-  ],
-  "parses": [
-    {
-      "name": "解析",
-      "type": 1,
-      "url": "https://zy.qiaoji8.com/gouzi.php?url="
-    },
-    {
-      "name": "麒麟",
-      "type": 0,
-      "url": "https://jx.quankan.app/?url="
-    },
-    {
-      "name": "云播",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url="
-    },
-    {
-      "name": "虾米",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url="
-    }
-  ],
-  "ads": [
-    "static-mozai.4gtv.tv",
-    "s3t3d2y8.afcdn.net"
   ]
 }
