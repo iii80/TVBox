@@ -1,5 +1,17 @@
 {
   "spider": "./custom_spider.jar?ref=master;md5;7849a5a3fb05e53a281b98764642c2ab",
+  "lives": [
+    {
+      "name": "电视┃IPTV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+    },
+    {
+      "name": "直播┃IPTV",
+      "type": 0,
+      "url": "http://175.178.251.183:6689/live.m3u"
+    }
+  ],
   "sites": [
     {
       "key": "DouDou",
