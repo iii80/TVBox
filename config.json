@@ -82,7 +82,7 @@
       "ext": "https://www.freeok.lol"
     },
     {
-      "key": "csp_SaoHuo",
+      "key": "SaoHuo",
       "name": "骚火┃不卡",
       "type": 3,
       "api": "csp_SaoHuo"
@@ -125,7 +125,7 @@
       "api": "csp_YCyz"
     },
     {
-      "key": "csp_SC1080",
+      "key": "SC1080",
       "name": "圣城┃采集",
       "type": 3,
       "api": "csp_SC1080"
@@ -258,7 +258,7 @@
       }
     },
     {
-      "key": "易搜",
+      "key": "YiSo",
       "name": "易搜┃云盘",
       "type": 3,
       "api": "csp_YiSo",
@@ -267,7 +267,7 @@
       }
     },
     {
-      "key": "csp_PanSearch",
+      "key": "PanSearch",
       "name": "盘搜┃云盘",
       "type": 3,
       "api": "csp_PanSearch",
