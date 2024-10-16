@@ -39,37 +39,6 @@
       "ext": "./quickjs/央视大全.js?ref=master"
     },
     {
-      "key": "瓜子影视",
-      "name": "瓜子┃App",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=master",
-      "ext": "./quickjs/瓜子影视.js?ref=master"
-    },
-    {
-      "key": "君君",
-      "name": "君君┃App",
-      "type": 3,
-      "api": "./CatVod/appys_open.js?ref=master",
-      "ext": {
-        "host": "http://122.228.85.203:1000/api.php/app/",
-        "*": [
-          "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
-        ]
-      }
-    },
-    {
-      "key": "GUAZI",
-      "name": "子子┃App",
-      "type": 3,
-      "api": "./CatVod/appys_open.js?ref=master",
-      "ext": {
-        "host": "http://110.42.37.106:7788/api.php/app/",
-        "*": [
-          "http://122.228.85.203:7979/api/?key=29a5e65c75bf3d339dec1bf50155cf87&url="
-        ]
-      }
-    },
-    {
       "key": "Jpys",
       "name": "文采┃秒播",
       "type": 3,
