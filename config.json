@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar?ref=main;md5;58d27a91953d4bc6b19dd4046ec3ff8e",
+  "spider": "./custom_spider.jar?ref=main;md5;0a91b704fc178bc3766d0eb33b7d908e",
   "lives": [
     {
       "name": "电视┃IPTV6",
@@ -261,6 +261,17 @@
       "ext": {
         "Cloud-drive": "TVRule/Cloud-drive.txt",
         "from": "4k|auto"
+      }
+    },
+    {
+      "key": "kanqiu926",
+      "name": "926┃看球",
+      "type": 3,
+      "api": "csp_kanqiu926",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
       }
     },
     {
