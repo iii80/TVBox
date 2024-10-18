@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar?ref=main;md5;ce37642e140a829d57496a32d8fcc648",
+  "spider": "./custom_spider.jar?ref=master;md5;ce37642e140a829d57496a32d8fcc648",
   "lives": [
     {
       "name": "电视┃IPTV6",
