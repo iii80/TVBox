@@ -148,6 +148,13 @@
       }
     },
     {
+      "key": "荐片",
+      "name": "荐片┃p2p",
+      "type": 3,
+      "api": "./libs/drpy2.min.js?ref=JavaScript",
+      "ext": "./quickjs/荐片.js?ref=JavaScript"
+    },
+    {
       "key": "SixV",
       "name": "SixV┃磁力",
       "type": 3,
