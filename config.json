@@ -39,6 +39,15 @@
       "api": "csp_Djtt"
     },
     {
+      "key": "926kanqiu",
+      "name": "926┃看球",
+      "type": 3,
+      "api": "csp_kanqiu926",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
       "key": "Jpys",
       "name": "文采┃秒播",
       "type": 3,
