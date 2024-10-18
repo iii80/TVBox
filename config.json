@@ -83,20 +83,6 @@
       "ext": "./quickjs/HDmoli.js?ref=JavaScript"
     },
     {
-      "key": "rarbt",
-      "name": "rarbt┃BT",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/rarbt.js?ref=JavaScript"
-    },
-    {
-      "key": "网飞TV",
-      "name": "网飞┃多线",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/网飞.TV.js?ref=JavaScript"
-    },
-    {
       "key": "闪雷电",
       "name": "雷电┃多线",
       "type": 3,
@@ -207,13 +193,6 @@
       "type": 3,
       "api": "./libs/drpy2.min.js?ref=JavaScript",
       "ext": "./quickjs/缘觉影视.js?ref=JavaScript"
-    },
-    {
-      "key": "农民影视",
-      "name": "农民┃嗅探",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/农民影视.js?ref=JavaScript"
     },
     {
       "key": "子子影视",
