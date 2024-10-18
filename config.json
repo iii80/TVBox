@@ -204,7 +204,7 @@
       "name": "下载┃商店",
       "type": 3,
       "api": "csp_Market",
-      "ext": "https://www.gitlink.org.cn/api/TVRule/TVBox/raw/json/market.json?ref=master"
+      "ext": "https://www.gitlink.org.cn/api/TVRule/TVBox/raw/json/market.json?ref=main"
     },
     {
       "key": "push_agent",
