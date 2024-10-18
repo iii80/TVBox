@@ -69,13 +69,6 @@
       "ext": "./quickjs/厂长资源.js?ref=JavaScript"
     },
     {
-      "key": "瓜子影视",
-      "name": "瓜子┃多线",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/瓜子影视.js?ref=JavaScript"
-    },
-    {
       "key": "HDmoli",
       "name": "魔力┃外剧",
       "type": 3,
