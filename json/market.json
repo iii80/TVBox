@@ -1,0 +1,128 @@
+[
+  {
+    "name": "推薦",
+    "list": [
+      {
+        "url": "",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "蜜蜂版",
+    "list": [
+      {
+        "name": "電視-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/leanback-java-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/leanback-python-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/leanback-java-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/leanback-python-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/mobile-java-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/mobile-java-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/mobile-python-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/fongmi/apk/release/mobile-python-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "欧克版",
+    "list": [
+      {
+        "name": "電視-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/leanback-java-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/leanback-python-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/mobile-java-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
+        "icon": "",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/release/mobile-python-arm64_v8a.apk",
+        "icon": "",
+        "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "4.x版",
+    "list": [
+      {
+        "name": "電視",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/Release/main/apk/kitkat/leanback.apk",
+        "icon": "",
+        "version": "v7a"
+      }
+    ]
+  }
+]
