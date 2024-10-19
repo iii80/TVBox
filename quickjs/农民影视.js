@@ -2,7 +2,7 @@
 var rule = {
     title: '农民影视[优]',
     tab_rename: {'默认': '线路①', '播放': '线路①', '滴滴': '线路①'}, //host:'https://www.nmddd.com',
-    host: 'https://vip.wwgz.cn:5200/',
+    host: 'https://www.wwwgz.cn/',
     hostJs: `print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});
 	let src = jsp.pdfh(html,"body&&a:eq(1)&&href")||jsp.pdfh(html,"body&&a:eq(1)&&Text");
 	if(!src.startsWith('http')){src='https://'+src};print("抓到主页:"+src);HOST=src`,
@@ -13,7 +13,7 @@ var rule = {
     filter_def: {
         1: {cateId: '1'}, 2: {cateId: '2'}, 3: {cateId: '3'}, 4: {cateId: '4'}, 26: {cateId: '26'}
     },
-    searchUrl: '/index.php?m=vod-search&wd=**',
+    searchUrl: 'https://vip.wwgz.cn:5200/index.php?m=vod-search&wd=**',
     searchable: 2,//是否启用全局搜索,
     headers: {//网站的请求头,完整支持所有的,常带ua和cookies
         'User-Agent': 'MOBILE_UA',
