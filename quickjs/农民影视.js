@@ -1,6 +1,6 @@
 var rule = {
     title: '旺旺影视',
-    host: 'https://vip.wwgz.cn:5200',
+    host: 'https://vip.wwgz.cn:5200/',
     url: '/vod-type-id-fyclass-pg-fypage.html',
     searchUrl: '/vod-search-pg-fypage-wd-**.html',
     searchable: 2,
