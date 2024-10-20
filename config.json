@@ -83,19 +83,6 @@
       "ext": "https://www.czzy.site/"
     },
     {
-      "key": "Bttwo",
-      "name": "比特┃秒播",
-      "type": 3,
-      "api": "csp_Bttwo"
-    },
-    {
-      "key": "Pptv",
-      "name": "菠菜┃采集",
-      "type": 3,
-      "api": "csp_Pptv",
-      "ext": "https://yigeg.pro"
-    },
-    {
       "key": "Nkdy",
       "name": "耐看┃外剧",
       "type": 3,
@@ -204,7 +191,7 @@
       "name": "下载┃商店",
       "type": 3,
       "api": "csp_Market",
-      "ext": "https://www.gitlink.org.cn/api/TVRule/TVBox/raw/json/market.json?ref=main"
+      "ext": "https://www.gitlink.org.cn/api/TVRule/TVBox/raw/json/market.json?ref=master"
     },
     {
       "key": "push_agent",
