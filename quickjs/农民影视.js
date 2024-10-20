@@ -19,15 +19,15 @@ globalThis.svod1 = function (ids) {
   const data = {
         vod_id: ids,
         vod_name: bata.vod_name,
-        vod_remarks: '小虎斑：'+bata.vod_remarks,
+        vod_remarks: bata.vod_remarks,
         vod_actor: bata.vod_actor,
         vod_director: bata.vod_director,
-        vod_content: '小虎斑提醒您：请勿相信任何广告谢谢'+bata.vod_content,
+        vod_content: bata.vod_content,
         vod_play_from: '',
         vod_play_url: ''
   };
   bata.vod_play_list.forEach((value, index) => {
-    data.vod_play_from += value.player_info.show + '|虎斑|广告勿信$$$';
+    data.vod_play_from += value.player_info.show + '广告勿信$$$';
     value.urls.forEach((v) => {
         data.vod_play_url += v.name + '$' + value.player_info.from + '|' + v.url + '#';
         });
