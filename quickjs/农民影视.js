@@ -27,7 +27,7 @@ globalThis.svod1 = function (ids) {
         vod_play_url: ''
   };
   bata.vod_play_list.forEach((value, index) => {
-    data.vod_play_from += value.player_info.show;
+    data.vod_play_from += value.player_info.show + '$$$';
     value.urls.forEach((v) => {
         data.vod_play_url += v.name + '$' + value.player_info.from + '|' + v.url + '#';
         });
