@@ -27,24 +27,6 @@
       "api": "csp_Jpyy"
     },
     {
-      "key": "NanGua",
-      "name": "南瓜┃App",
-      "type": 3,
-      "api": "csp_NanGua"
-    },
-    {
-      "key": "Gz360",
-      "name": "瓜子┃多线",
-      "type": 3,
-      "api": "csp_Gz360"
-    },
-    {
-      "key": "Tvyb",
-      "name": "云播┃多线",
-      "type": 3,
-      "api": "csp_Tvyb"
-    },
-    {
       "key": "LiteApple",
       "name": "苹果┃复活",
       "type": 3,
@@ -76,11 +58,36 @@
       "ext": "https://www.wwgz.cn/"
     },
     {
+      "key": "Jianpian",
+      "name": "荐片┃p2p",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "ext": "http://api2.rinhome.com"
+    },
+    {
       "key": "Czsapp",
       "name": "厂长┃资源",
       "type": 3,
       "api": "csp_Czsapp",
       "ext": "https://www.czzy.site/"
+    },
+    {
+      "key": "NanGua",
+      "name": "南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua"
+    },
+    {
+      "key": "Gz360",
+      "name": "瓜子┃多线",
+      "type": 3,
+      "api": "csp_Gz360"
+    },
+    {
+      "key": "Tvyb",
+      "name": "云播┃多线",
+      "type": 3,
+      "api": "csp_Tvyb"
     },
     {
       "key": "Nkdy",
@@ -94,13 +101,6 @@
       "type": 3,
       "api": "csp_Kanke",
       "ext": "https://www.kmeiju.com"
-    },
-    {
-      "key": "Jianpian",
-      "name": "荐片┃p2p",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "ext": "http://api2.rinhome.com"
     },
     {
       "key": "FirstAid",
