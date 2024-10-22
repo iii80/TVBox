@@ -1,5 +1,6 @@
+//fan241022
 {
-  "spider": "./custom_spider.jar?ref=master;md5;280cd3d4d397dce21bf99a30c7ca91f2",
+  "spider": "./custom_spider.jar?ref=master;md5;5738c641b7c4bb27ca7b5d8f1270dbd4",
   "lives": [
     {
       "name": "电视┃IPTV6",
@@ -37,15 +38,6 @@
       "name": "无忧┃短剧",
       "type": 3,
       "api": "csp_Djtt"
-    },
-    {
-      "key": "926kanqiu",
-      "name": "926┃看球",
-      "type": 3,
-      "api": "csp_kanqiu926",
-      "style": {
-        "type": "list"
-      }
     },
     {
       "key": "Jpys",
@@ -148,13 +140,6 @@
       }
     },
     {
-      "key": "荐片",
-      "name": "荐片┃p2p",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/荐片.js?ref=JavaScript"
-    },
-    {
       "key": "SixV",
       "name": "SixV┃磁力",
       "type": 3,
@@ -246,6 +231,17 @@
       "ext": {
         "Cloud-drive": "TVRule/Cloud-drive.txt",
         "from": "4k|auto"
+      }
+    },
+    {
+      "key": "kanqiu926",
+      "name": "926┃看球",
+      "type": 3,
+      "api": "csp_kanqiu926",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
       }
     },
     {
