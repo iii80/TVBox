@@ -1,6 +1,6 @@
 //xm241021 {"key":"DouDou","name":"豆瓣┃评分","type":3,"api":"csp_Douban"},
 {
-  "spider": "./custom_spider.jar?ref=main;md5;94dfa9c3e5acadf01c1284f4616b2557",
+  "spider": "./custom_spider.jar?ref=main;md5;94a61d079ca4c734d612ba593e07e764",
   "lives": [
     {
       "name": "电视┃IPV6",
