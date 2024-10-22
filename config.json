@@ -9,7 +9,7 @@
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },┃
+    },
     {
       "name": "电视┃LIVE",
       "type": 0,
@@ -21,7 +21,7 @@
     {
       "name": "直播┃IPTV",
       "type": 0,
-      "url": "http://175.178.251.183:6689/live.m3u"
+      "url": "http://175.178.251.183:6689/live.m3u",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
