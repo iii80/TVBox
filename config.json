@@ -5,7 +5,7 @@
     {
       "name": "电视┃IPTV6",
       "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
