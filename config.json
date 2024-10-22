@@ -1,16 +1,30 @@
-//fan241022
+//fan241023
 {
-  "spider": "./custom_spider.jar?ref=master;md5;5738c641b7c4bb27ca7b5d8f1270dbd4",
+  "spider": "./custom_spider.jar?ref=master;md5;dc29a25f7393c2c3aa9187a57f708309",
   "lives": [
     {
       "name": "电视┃IPTV6",
       "type": 0,
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },┃
+    {
+      "name": "电视┃LIVE",
+      "type": 0,
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
       "name": "直播┃IPTV",
       "type": 0,
       "url": "http://175.178.251.183:6689/live.m3u"
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
     }
   ],
   "sites": [
@@ -19,13 +33,6 @@
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_DouDou"
-    },
-    {
-      "key": "央视大全",
-      "name": "央视┃大全",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/央视大全.js?ref=JavaScript"
     },
     {
       "key": "alllive",
@@ -38,6 +45,15 @@
       "name": "无忧┃短剧",
       "type": 3,
       "api": "csp_Djtt"
+    },
+    {
+      "key": "926kanqiu",
+      "name": "926┃看球",
+      "type": 3,
+      "api": "csp_kanqiu926",
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "Jpys",
@@ -100,7 +116,7 @@
       "name": "奥特┃无广",
       "type": 3,
       "api": "csp_Auete",
-      "ext": "https://auete.pro/"
+      "ext": "https://auete.com/"
     },
     {
       "key": "Bttwoo",
@@ -128,13 +144,6 @@
       "type": 3,
       "api": "csp_AppTT",
       "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-    },
-    {
-      "key": "荐片",
-      "name": "荐片┃p2p",
-      "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/荐片.js?ref=JavaScript"
     },
     {
       "key": "Libvio",
@@ -238,15 +247,6 @@
       "ext": {
         "Cloud-drive": "TVRule/Cloud-drive.txt",
         "from": "4k|auto"
-      }
-    },
-    {
-      "key": "kanqiu926",
-      "name": "926┃看球",
-      "type": 3,
-      "api": "csp_kanqiu926",
-      "style": {
-        "type": "list"
       }
     },
     {
