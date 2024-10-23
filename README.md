@@ -1,4 +1,3 @@
 # 
 
-https://www.gitlink.org.cn/api/TVRule/TVBox/raw/config.json?ref=master
-
+https://cdn09022024.gitlink.org.cn/TVRule/TVBox/raw/branch/master/config.json
