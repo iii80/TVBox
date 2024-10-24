@@ -13,13 +13,13 @@
       "url": "http://175.178.251.183:6689/live.m3u"
     }
   ],
-  "sites": [    
+  "sites": [
     {
       "key": "豆瓣评分",
-      "name":"豆瓣┃评分",
+      "name": "豆瓣┃评分",
       "type": 3,
-      "api": "./libs/drpy2.min.js?ref=JavaScript",
-      "ext": "./quickjs/豆瓣评分.js?ref=JavaScript"
+      "api": "./libs/drpy2.min.js?ref=master",
+      "ext": "./quickjs/豆瓣评分.js?ref=master"
     },
     {
       "key": "Jpyy",
